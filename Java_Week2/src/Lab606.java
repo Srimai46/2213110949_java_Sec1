@@ -4,7 +4,7 @@ public class Lab606 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] number = {25, 78, 41, 22, 36, 85, 37};
-		for(int i =0;i< number.length;i++) {
+		
 			int array = Integer.parseInt(JOptionPane.showInputDialog("input index of array:"));
 			
 			while(!checkIndex(number,array)) {
@@ -15,7 +15,7 @@ public class Lab606 {
 					(nextData(number,array)<=6?"Next data, nums ["+nextData(number,array)+"] is "+number[array+1]:"No next data"));
 		}		 		
 						
-		}
+		
 	
 	public static boolean checkIndex(int[] nums,int index) {
 		return (index >=0 && index <7);
