@@ -1,0 +1,4 @@
+StudentID : 2213110949
+Fullname  : Sirapob Srimai
+AKA	  : Pob
+ClassDate : Class and Object, Array of Object
