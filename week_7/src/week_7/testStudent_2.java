@@ -27,7 +27,7 @@ public static void main(String[] args) {
 			
 		}
 		
-		System.out.println("-------------------------------------------");
+		
 		for(Student _std:std ) {
 			
 				System.out.println(">> "+_std.getName()+" get grad "+_std.findGrade(_std.getScore()));
