@@ -9,10 +9,10 @@ public class Product {
 		return unit;
 	}
 	public int getTotalprice() {
-		return unit*100;
+		return getUnit()*100;
 	}
 	public String toSring() {
-		return "You buy "+unit+" unit ("+getTotalprice()+").";
+		return "You buy "+this.unit+" unit ("+getTotalprice()+").";
 	}
 
 }
